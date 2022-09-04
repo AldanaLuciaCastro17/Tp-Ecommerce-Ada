@@ -5,8 +5,8 @@ export const FilterProducts = ({ setFilterProducts }) => {
     <>
       <FormControl>
         <Input
-          w="300px"
-          mt="15px"
+          textAlign="center"
+          w="40%"
           placeholder="Buscar"
           onChange={(e) => setFilterProducts(e.target.value)}
         />

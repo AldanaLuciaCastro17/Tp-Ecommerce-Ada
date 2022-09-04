@@ -6,7 +6,7 @@ export const FilterCategory = ({ setFilterCategories }) => {
     <HStack
       as="form"
       display="flex"
-      w="20%"
+      w="50%"
       justify="center"
       alignItems="center"
       className="productSearch"
@@ -14,7 +14,6 @@ export const FilterCategory = ({ setFilterCategories }) => {
       <Select
         type="text"
         color="#a2baba"
-        _focus={{ outline: 'none' }}
         onChange={(e) => setFilterCategories(e.target.value)}
       >
         <option value="Elegi una categoria..." disabled>

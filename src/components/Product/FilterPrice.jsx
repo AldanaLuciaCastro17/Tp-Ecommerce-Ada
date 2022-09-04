@@ -16,7 +16,7 @@ export const FilterPrices = ({ setMinPrice, setMaxPrice }) => {
       <HStack
         as="form"
         display="flex"
-        w="20%"
+        w="50%"
         justify="center"
         alignItems="center"
         className="productSearch"

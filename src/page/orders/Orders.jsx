@@ -60,17 +60,18 @@ export const Orders = () => {
 
           <Flex
             key={product.id}
-            flexDirection="column"
+            flexDirection="row"
             w="100%"
             justifyContent="space-between"
             alignItems="center"
+            m="40px"
           >
-            <Text color="white" m={1} textAlign="center" fontWeight="bold">
+            <Text m={1} textAlign="center" fontWeight="bold" color="#a2baba">
               {product.attributes.title}
             </Text>
 
-            <Text color="white" m={1} textAlign="center">
-              Price: ${product.attributes.price}
+            <Text m={1} textAlign="center">
+              Precio: ${product.attributes.price}
             </Text>
             <Text>Cantidad: {product.cartQuantity}</Text>
 

@@ -31,11 +31,17 @@ export const Product = () => {
 
   return (
     <>
-      <VStack align="stretch" w="100%">
+      <Flex
+        w="100%"
+        justifyContent="space-between"
+        textAlign="center"
+        alignItems="center"
+        m="40px"
+      >
         <FilterCategory setFilterCategories={setFilterCategories} />
         <FilterProducts setFilterProducts={setFilterProducts} />
         <FilterPrices setMinPrice={setMinPrice} setMaxPrice={setMaxPrice} />
-      </VStack>
+      </Flex>
       <VStack>
         {data?.data && (
           <Grid templateColumns="repeat(3, 1fr)" gap={5}>

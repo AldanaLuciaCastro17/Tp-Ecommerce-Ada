@@ -114,7 +114,7 @@ export const CartDrawer = () => {
                       </Text>
 
                       <Text color="white" m={1} textAlign="center">
-                        Price: ${product.attributes.price}
+                        Precio: ${product.attributes.price}
                       </Text>
                       <Text>Cantidad: {product.cartQuantity}</Text>
 
