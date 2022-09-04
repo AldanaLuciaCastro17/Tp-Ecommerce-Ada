@@ -161,7 +161,9 @@ export const CartDrawer = () => {
                   <Text fontWeight="bold">
                     Total: $ {totalCart().cartTotalAmout}
                   </Text>
-                  <Button bg="orange">Ir al carrito</Button>
+                  <Button bg="orange" as={NavLink} to="/orders">
+                    Ir al carrito
+                  </Button>
                 </Flex>
               </Flex>
             )}

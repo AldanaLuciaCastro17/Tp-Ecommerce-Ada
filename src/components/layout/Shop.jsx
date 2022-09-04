@@ -1,5 +1,5 @@
 import { Header } from './Header'
-// import { Footer } from './Footer'
+import { Footer } from './Footer'
 import { Flex } from '@chakra-ui/react'
 
 const Shop = ({ children }) => {
@@ -16,6 +16,7 @@ const Shop = ({ children }) => {
         flexWrap="wrap"
       >
         {children}
+        <Footer />
       </Flex>
     </div>
   )

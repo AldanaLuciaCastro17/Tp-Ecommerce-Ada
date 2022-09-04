@@ -1,4 +1,4 @@
-import { Carrusel } from '../../components/carrusel/Carrusel'
+import { Carrousel } from '../../components/carrusel/Carrusel'
 import {
   Heading,
   Box,
@@ -19,7 +19,7 @@ export const Home = () => {
 
   return (
     <>
-      <Carrusel />
+      <Carrousel />
       <Flex
         w="100%"
         h="100vh"

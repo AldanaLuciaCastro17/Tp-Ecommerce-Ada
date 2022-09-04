@@ -1,15 +1,16 @@
-import { React, useEffect } from 'react'
+import { React, useEffect, useState } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import { Box, Image } from '@chakra-ui/react'
 
-export const Carrusel = () => {
-  // const [carrousel, setCarrousel] = useState([])
+export const Carrousel = () => {
+  const [image, setImage] = useState([])
 
   useEffect(() => {
     fetch('http://localhost:1337/api/carousels?populate=image')
       .then((res) => res.json())
-      .then((data) => console.log(data))
+      .then((data) => setImage(data.data))
   }, [])
 
   const settings = {
@@ -22,20 +23,21 @@ export const Carrusel = () => {
 
   return (
     <>
-      <Slider {...settings}>
-        <div>
-          <h3>1</h3>
-        </div>
-        <div>
-          <h3>2</h3>
-        </div>
-        <div>
-          <h3>3</h3>
-        </div>
-        <div>
-          <h3>4</h3>
-        </div>
-      </Slider>
+      <Box p="10px" w="100%">
+        <Slider {...settings}>
+          {image &&
+            image.map((image) => (
+              <Box key={image.id}>
+                <Image
+                  w="100%"
+                  display="flex"
+                  h="80%"
+                  src={image.attributes.image.data.attributes.url}
+                />
+              </Box>
+            ))}
+        </Slider>
+      </Box>
     </>
   )
 }

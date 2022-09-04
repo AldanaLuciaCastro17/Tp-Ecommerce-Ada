@@ -32,14 +32,16 @@ export const Header = () => {
         <Box w="100%" borderBottom="1px solid #a2baba" px={5}>
           <Flex as="nav" alignItems={'center'} justify="space-between">
             <Box>
-              <Image w={140} m={2} src={logo} alt="logo" />
+              <NavLink to="/">
+                <Image w={140} m={2} src={logo} alt="logo" />
+              </NavLink>
             </Box>
             <Flex align="center" justify="space-between" gap={5} padding={5}>
               <Link color="#a2baba" as={NavLink} to="/">
-                Home
+                Inicio
               </Link>
               <Link color="#a2baba" as={NavLink} to="/Product">
-                Products |
+                Producto |
               </Link>
 
               <Icon

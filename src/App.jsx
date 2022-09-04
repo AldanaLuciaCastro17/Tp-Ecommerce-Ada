@@ -7,6 +7,7 @@ import { ProductDetail } from './components/Product/ProductDetail'
 import { Error404 } from './page/Error404/Error404'
 import { ProtectedRoutes } from './components/ProtectedRouter/ProtectedRouter'
 import { Profile } from './page/Profile/Profile'
+import { Orders } from './page/orders/Orders'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="*" element={<Error404 />} />
           <Route element={<ProtectedRoutes />}>
             <Route path="/profile" element={<Profile />} />
+            <Route path="/orders" element={<Orders />} />
           </Route>
         </Routes>
       </Shop>

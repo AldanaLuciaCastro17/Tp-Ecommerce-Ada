@@ -31,10 +31,11 @@ export const Product = () => {
 
   return (
     <>
-      <FilterCategory setFilterCategories={setFilterCategories} />
-      <FilterProducts setFilterProducts={setFilterProducts} />
-      <FilterPrices setMinPrice={setMinPrice} setMaxPrice={setMaxPrice} />
-
+      <VStack align="stretch" w="100%">
+        <FilterCategory setFilterCategories={setFilterCategories} />
+        <FilterProducts setFilterProducts={setFilterProducts} />
+        <FilterPrices setMinPrice={setMinPrice} setMaxPrice={setMaxPrice} />
+      </VStack>
       <VStack>
         {data?.data && (
           <Grid templateColumns="repeat(3, 1fr)" gap={5}>
