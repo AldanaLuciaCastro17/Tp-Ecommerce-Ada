@@ -9,5 +9,5 @@ costo y tambien comprarlo!
 ![3](https://user-images.githubusercontent.com/90359143/188336569-7f8dcce8-16d6-46fc-9d45-958f19c01644.png)
 ![4](https://user-images.githubusercontent.com/90359143/188336572-adf610f2-cdf1-47dc-9d1b-bf779f3dfcdb.png)
 ![5](https://user-images.githubusercontent.com/90359143/188336573-c68ffe78-5910-40a4-a092-d9e9c3380f24.png)
-![6](https://user-images.githubusercontent.com/90359143/188336574-f30ce491-15e8-49e2-af1e-32c819d88196.png)
 ![7](https://user-images.githubusercontent.com/90359143/188336575-8e6dd7b2-9db9-43dd-8d50-2ae7526c179a.png)
+![6](https://user-images.githubusercontent.com/90359143/188336574-f30ce491-15e8-49e2-af1e-32c819d88196.png)
