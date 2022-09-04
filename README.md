@@ -1,7 +1,7 @@
 Ultimo proyecto de la carrera de desarrollo Front-end en Ada IT. Se trata de un ecommercer, en este caso, una tienda de articulos de silicona para bebes 
 hecho con React Js, Chakra para dar estilos, Yup para validar los formularios de Login y Register, Redux-Tookit para el manejo de estados globales 
 y QS para filtros de búsquedas, usando como base de datos Strapi. El usuario puede registrarse o iniciar sesión, ver los productos y sus detalles,
-costo y tambien comprarlo.![1](https://user-images.githubusercontent.com/90359143/188336472-9b8b04b0-9f2e-4f88-a655-3f46f8eb96ef.png)
+costo y tambien comprarlo!
 
 
 ![1](https://user-images.githubusercontent.com/90359143/188336564-cfaeb2a6-a824-4592-8ee1-98fe8d798d9b.png)
