@@ -3,10 +3,11 @@ hecho con React Js, Chakra para dar estilos, Yup para validar los formularios de
 y QS para filtros de búsquedas, usando como base de datos Strapi. El usuario puede registrarse o iniciar sesión, ver los productos y sus detalles,
 costo y tambien comprarlo.![1](https://user-images.githubusercontent.com/90359143/188336472-9b8b04b0-9f2e-4f88-a655-3f46f8eb96ef.png)
 
-![1](https://user-images.githubusercontent.com/90359143/188336477-47974282-6967-418f-b354-f4624f5b8505.png)
-![2](https://user-images.githubusercontent.com/90359143/188336493-03ef7bda-69b7-4541-b675-45175190301f.png)
-![3](https://user-images.githubusercontent.com/90359143/188336498-1c546f3e-931a-4cb4-858b-a13902fc780c.png)
-![4](https://user-images.githubusercontent.com/90359143/188336500-0160fc26-a6ef-4f50-9958-ff17782a6e4b.png)
-![5](https://user-images.githubusercontent.com/90359143/188336503-683df1a6-85ba-4038-8691-2895d476e9e5.png)
-![6](https://user-images.githubusercontent.com/90359143/188336504-96b222e5-9242-44d0-8c49-9f574374883b.png)
-![7](https://user-images.githubusercontent.com/90359143/188336508-f1ea6a5c-27c4-4de5-b083-4bfac0822c15.png)
+
+![1](https://user-images.githubusercontent.com/90359143/188336564-cfaeb2a6-a824-4592-8ee1-98fe8d798d9b.png)
+![2](https://user-images.githubusercontent.com/90359143/188336568-0c2ade6d-c615-4960-835f-3b27eb293f00.png)
+![3](https://user-images.githubusercontent.com/90359143/188336569-7f8dcce8-16d6-46fc-9d45-958f19c01644.png)
+![4](https://user-images.githubusercontent.com/90359143/188336572-adf610f2-cdf1-47dc-9d1b-bf779f3dfcdb.png)
+![5](https://user-images.githubusercontent.com/90359143/188336573-c68ffe78-5910-40a4-a092-d9e9c3380f24.png)
+![6](https://user-images.githubusercontent.com/90359143/188336574-f30ce491-15e8-49e2-af1e-32c819d88196.png)
+![7](https://user-images.githubusercontent.com/90359143/188336575-8e6dd7b2-9db9-43dd-8d50-2ae7526c179a.png)
